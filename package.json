@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rodneyowusu.github.io/2020-BURGER-APP-0002-REACT",
   "name": "burger-app",
   "version": "0.1.0",
   "private": true,
@@ -45,6 +46,8 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
