@@ -1,8 +1,6 @@
-import React from 'react'
-import classes from './Spinner.css'
+import React from 'react';
 
-
-//Link For Spinners : https://projects.lukehaas.me/css-loaders/
+import classes from './Spinner.css';
 
 const spinner = () => (
     <div className={classes.Loader}>Loading...</div>
